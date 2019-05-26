@@ -1,0 +1,11 @@
+presubmits:
+- name: pull-test-inrepo-hello
+  always_run: true
+  decorate: true
+  spec:
+    containers:
+      - image: alpine
+        command:
+          - /bin/sh
+          - -c
+          - echo hello from repo
