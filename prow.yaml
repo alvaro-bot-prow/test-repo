@@ -8,4 +8,4 @@ presubmits:
         command:
           - /bin/sh
           - -c
-          - echo hello from repo
+          - date && exit 1
