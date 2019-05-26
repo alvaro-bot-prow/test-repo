@@ -1,4 +1,3 @@
-newOpt: {}
 presubmits:
 - name: pull-test-inrepo-hello
   always_run: true
