@@ -4,8 +4,8 @@ presubmits:
   decorate: true
   spec:
     containers:
-      - image: alpine
-        command:
-          - /bin/sh
-          - -c
-          - echo hello from repo
+    - image: alpine
+      command:
+      - /bin/sh
+      - -c
+      - echo hello from repo
