@@ -9,3 +9,13 @@ presubmits:
           - /bin/sh
           - -c
           - echo hello from repo
+postsubmits:
+- name: post-test-inrepo-hello
+  decorate: true
+  spec:
+    containers:
+      - image: alpine
+        command:
+          - /bin/sh
+          - -c
+          - echo hello from repo
