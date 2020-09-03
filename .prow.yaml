@@ -8,7 +8,7 @@ presubmits:
         command:
           - /bin/sh
           - -c
-          - echo hello from repo
+          - echo hello there from repo
 postsubmits:
 - name: post-test-inrepo-hello
   decorate: true
