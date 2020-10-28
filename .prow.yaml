@@ -1,7 +1,7 @@
 presubmits:
 - name: pull-test-inrepo-hello
   always_run: true
-  decorate: true
+  decorate: false
   spec:
     containers:
       - image: alpine
@@ -11,7 +11,7 @@ presubmits:
           - echo hello there from repo
 postsubmits:
 - name: post-test-inrepo-hello
-  decorate: true
+  decorate: false
   spec:
     containers:
       - image: alpine
